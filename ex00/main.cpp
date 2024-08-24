@@ -2,23 +2,21 @@
 
 int main()
 {
-	std::cout << "============= stackZombies =============" << std::endl;
-	Zombie	zombie1("Zombie1");
-	Zombie	zombie2("Zombie2");
-	Zombie	zombie3;
+	std::cout << "========= Stack =========" << std::endl;
+	Zombie	zombie1("Adán");
+	Zombie	predet;
 
 	zombie1.announce();
-	zombie2.announce();
-	zombie3.announce();
-	randomChump("randomChumpZ");
+	predet.announce();
+	randomChump("Random Zombie");
 
-	std::cout << std::endl;
-	std::cout << "============= heapZombies ==============" << std::endl;
+	std::cout << "==== Heap =====" << std::endl;
 	Zombie	*heapZ;
 
-	heapZ = newZombie("HeapZ");
+	heapZ = newZombie("New Zombie");
 	heapZ->announce();
 	delete(heapZ);
-
+	
+	std::cout << "==== After All =====" << std::endl;
 	return (0);
 }

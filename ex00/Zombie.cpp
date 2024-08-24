@@ -2,7 +2,6 @@
 
 Zombie::Zombie()
 {
-    std::cout<<"A default name has been assigned."<<std::endl;
     this->name = "Uruk-hai";
 };
 Zombie::Zombie(std::string name)
