@@ -3,6 +3,7 @@
 HumanB::HumanB(std::string n)
 {
     this->name = n;
+    this->weap = 0;
 };
 
 HumanB::~HumanB()

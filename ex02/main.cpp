@@ -6,7 +6,7 @@ int main()
 	std::string *ptr;
 	std::string &ref = str;
 
-	str = "Hola";
+	str = "HI THIS IS BRAIN";
 	ptr = &str;
 	std::cout << "Address of str:" << &str <<std::endl;
 	std::cout << "Address of ptr:" << ptr <<std::endl;
