@@ -1,5 +1,5 @@
 NAME = replace
-SRCS = main.cpp Replace.cpp Replace.hpp
+SRCS = main.cpp
 OBJS = $(SRCS:.cpp=.o)
 CFLAGS = -Wall -Werror -Wextra -std=c++98
 CC = c++
